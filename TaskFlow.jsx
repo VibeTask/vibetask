@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { supabase } from "./supabaseClient";
 
 const today = () => new Date().toISOString().split("T")[0];
